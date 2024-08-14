@@ -1,0 +1,10 @@
+version: "3"
+
+tasks:
+  default:
+    desc: build tarot web
+      - ng build --configuration=production
+  build:
+    desc: build tarot web
+    cmds:
+      - ng build --configuration=production
